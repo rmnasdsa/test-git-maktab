@@ -1,5 +1,5 @@
 function sum (c) {
-  return c ^ 2;
+  return c + 2;
 }
 
 alert(sum(2));
