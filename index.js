@@ -6,8 +6,8 @@ alert(sum(2));
 
 
 const digits = (a, b) => {
-    return a * b;
+    return Math.floor( a / b)
 }
 
-digits(4, 5);
+console.log(digits(5, 4));
 
